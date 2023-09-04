@@ -73,7 +73,9 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 ]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with value:str to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = None
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
+    "__PRETEXT__": "Alternatively, images could be split into 60 ***event*** categories, while every object contains information about its ***pose***, facial ***expression***, ***occlusion***, ***blur***, and ***illumination***. Objects with low resolution and small scale receive an ***invalid*** flag"
+}
 TAGS: Optional[List[str]] = None
 
 
