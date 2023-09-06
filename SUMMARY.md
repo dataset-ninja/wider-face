@@ -1,4 +1,4 @@
-**WIDER FACE: A Face Detection Benchmark** is a dataset for an object detection task. It is applicable or relevant across various domains. 
+**WIDER FACE: A Face Detection Benchmark** is a dataset for an object detection task. Possible applications of the dataset could be in the surveillance industry. 
 
 The dataset consists of 32203 images with 199130 labeled objects belonging to 1 single class (*face*).
 
