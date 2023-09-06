@@ -15,14 +15,14 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "WIDER FACE"
 PROJECT_NAME_FULL: str = "WIDER FACE: A Face Detection Benchmark"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_NC_ND_2_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Domain.General()]
-CATEGORY: Category = Category.General()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Surveillance(is_used=False)]
+CATEGORY: Category = Category.Surveillance()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
