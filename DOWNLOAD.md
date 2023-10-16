@@ -1,6 +1,6 @@
 Dataset **WIDER FACE** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/d/4/Ho/pSefbh7h3DaIRMXcTElxJnQ0DuKEaaYvLZZu4wT1f0MSQYvARwQQan0kIZ3keCXt2gSvOBUpY4km5ogXQLTXqbP4nrT1sE35l311cLJ7WQ0Ju8G6tk5e5vDxIDde.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
