@@ -60,8 +60,10 @@ PAPER: Optional[
     Union[str, List[str]]
 ] = "https://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_WIDER_FACE_A_CVPR_2016_paper.pdf"
 BLOGPOST: Optional[Union[str, List[str]]] = None
+
 CITATION_URL: Optional[str] = "http://shuoyang1213.me/WIDERFACE/"
 AUTHORS: Optional[List[str]] = ["Shuo Yang", "Ping Luo", "Chen Change Loy", "Xiaoou Tang"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["shuoyang.1213@gmail.com"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "Chinese University of Hong Kong",
@@ -122,6 +124,7 @@ def get_settings():
     settings["blog"] = BLOGPOST
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
