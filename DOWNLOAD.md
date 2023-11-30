@@ -1,6 +1,6 @@
 Dataset **WIDER FACE** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/d/4/Ho/pSefbh7h3DaIRMXcTElxJnQ0DuKEaaYvLZZu4wT1f0MSQYvARwQQan0kIZ3keCXt2gSvOBUpY4km5ogXQLTXqbP4nrT1sE35l311cLJ7WQ0Ju8G6tk5e5vDxIDde.tar)
+ [Download](https://www.dropbox.com/scl/fi/sfzyi67uo2h5on5r6u3v5/wider-face-DatasetNinja.tar?rlkey=6zvc5g2gq9fyhxzkbkem2bbz9&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
